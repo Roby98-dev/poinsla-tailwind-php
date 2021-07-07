@@ -1,0 +1,28 @@
+.categories {
+    h2 {
+        color: $text-color;
+    }
+    h2::after {
+        content: "";
+        height: 2px;
+        width: 10%;
+        background: $text-color;
+        display: block;
+        margin: auto;
+    }
+    .container {
+        .row {
+            div {
+                a {
+                    text-decoration: none;
+                    div {
+                        transition: .4s ease;
+                        &:hover {
+                            background-color: rgb(13,202,240);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

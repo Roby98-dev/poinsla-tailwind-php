@@ -1,0 +1,35 @@
+#about {
+    h2 {
+        color: $text-color;
+    }
+    h2::after {
+        content: "";
+        height: 2px;
+        width: 10%;
+        background: $text-color;
+        display: block;
+        margin: auto;
+    }
+}
+
+.this-about-us {
+    h2 {
+        color: $text-color;
+    }
+    h2::after {
+        content: "";
+        height: 2px;
+        width: 10%;
+        background: $text-color;
+        display: block;
+        margin: auto;
+    }
+}
+
+.about-image {
+    width: 200px;
+}
+
+.about-card {
+    background-color: $dark-secondary;
+}
