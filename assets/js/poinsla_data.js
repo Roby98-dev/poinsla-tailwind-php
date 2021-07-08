@@ -37,27 +37,27 @@ let sosmedsData = [
       {
         id: '1',
         title: 'Home',
-        link: 'http://poinsla.xyz/',
+        link: 'https://poinsla.xyz/',
       },
       {
         id: '2',
         title: 'Offers',
-        link: 'http://poinsla.xyz/categories.php',
+        link: 'https://poinsla.xyz/categories.php',
       },
       {
         id: '3',
         title: 'Services',
-        link: 'http://poinsla.xyz/portfolios.php',
+        link: 'https://poinsla.xyz/portfolios.php',
       },
       {
         id: '4',
         title: 'Pricing',
-        link: 'http://poinsla.xyz/categories.php',
+        link: 'https://poinsla.xyz/categories.php',
       },
       {
         id: '5',
         title: 'Contact',
-        link: 'http://poinsla.xyz/contact.php',
+        link: 'https://poinsla.xyz/contact.php',
       },
   ];
   
