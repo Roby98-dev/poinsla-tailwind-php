@@ -14,8 +14,3 @@ var swiper = new Swiper('.swiper-container', {
     clickable: true,
   },
 });
-
-AOS Animation Script
-AOS.init({
-    once: true,
-});
