@@ -37,7 +37,7 @@
                             <?php
                             } else {
                             ?>
-                                <a target="blank" href="<?= SITEURL; ?>images/category/<?= $image_name; ?>">
+                                <a href="<?= SITEURL; ?>category-projects.php?category_id=<?= $id; ?>">
                                     <div style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('<?= SITEURL; ?>images/category/<?= $image_name; ?>');" class="h-60 rounded-t-lg shadow-lg">
                                     </div>
                                 </a>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login | Poinsla Food Order Website</title>
 
-    <link rel="stylesheet" href="<?= SITEURL; ?>assets/css/styles.css" />
+    <link rel="stylesheet" href="<?= SITEURL; ?>styles.css" />
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 </head>
 

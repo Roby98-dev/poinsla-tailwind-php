@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="flex justify-center">
-        <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 md:max-w-6xl">
             <div class="shadow-lg mx-4 my-4 bg-gray-500 rounded-lg">
                 <?php
                 if (isset($_SESSION['add'])) {
@@ -39,7 +39,7 @@
                         <textarea class="w-full px-4 border border-gray-400 rounded p-4 shadow" name="message" placeholder="Enter your messages"></textarea>
                     </div>
                     <div class="mt-3">
-                        <input class="px-4 font-semibold hover:text-black text-gray-200 hover:bg-blue-700 cursor-pointer rounded-full bg-blue-500 w-full p-4 shadow-lg" name="submit" type="submit" value="Send">
+                        <input class="px-4 font-semibold hover:text-black text-gray-200 hover:bg-blue-700 cursor-pointer rounded-full bg-blue-500 w-full shadow-lg" name="submit" type="submit" value="Send">
                     </div>
                 </form>
             </div>

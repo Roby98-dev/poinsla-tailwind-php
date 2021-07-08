@@ -5,7 +5,7 @@
     </div>
 
 
-    <h2 class=" text-3xl font-bold">Welcome To Poinsla!</h2>
+    <h2 class="text-gray-200 text-3xl font-bold">Welcome To Poinsla!</h2>
     <h4>I'am <strong>Roby Adi Putra</strong></h4>
     <div class="type-wrap">
         <div id="typed-strings">

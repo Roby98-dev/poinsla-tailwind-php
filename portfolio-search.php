@@ -13,8 +13,8 @@
 </section>
 
 <section class="project bg-dark pt-4 pb-4">
-    <div class="container">
-        <div class="flex justify-center py-10">
+    <div class="flex justify-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
             <?php
 
