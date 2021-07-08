@@ -86,7 +86,7 @@
                     $description = $row['description'];
                     $image_name = $row['image_name'];
             ?>
-                    <div style="width: 80%; height: 27rem;" class="swiper-slide shadow-lg bg-gray-800 rounded-lg relative">
+                    <div style="width: 80%; height: 35rem;" class="swiper-slide shadow-lg bg-gray-800 rounded-lg relative">
                         <?php
                         if ($image_name == "") {
                         ?>

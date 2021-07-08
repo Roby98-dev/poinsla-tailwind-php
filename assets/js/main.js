@@ -15,7 +15,7 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
-// AOS Animation Script
-// AOS.init({
-//     once: true,
-// });
+AOS Animation Script
+AOS.init({
+    once: true,
+});
