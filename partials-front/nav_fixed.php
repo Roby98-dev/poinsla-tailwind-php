@@ -26,13 +26,20 @@
 
     <!-- Mobile menu -->
     <div x-show="showNavbar" class="md:hidden shadow-md text-center border-t px-3 py-5 bg-gray-100">
-        <div x-data="{navData: navsData}" class="overflow-auto whitespace-nowrap py-2">
+        <div x-data="{navData: navsData}" class="overflow-auto flex whitespace-nowrap py-2">
             <template x-for="nav in navData" :key="nav">
-                <a :href="`${nav.link}`" x-text='nav.title' class="py-5 px-3 text-gray-700 hover:text-black rounded"></a>
+                <div class="bg-gray-300 py-1 px-2 mx-1 rounded-full">
+                    <a :href="`${nav.link}`" x-text='nav.title' class="py-5 px-3 text-gray-700 hover:text-black rounded"></a>
+                </div>
             </template>
         </div>
-        <div class="items-center mt-2 space-x-1">
-            <a href="<?= SITEURL; ?>admin/" class="py-1 px-3 text-gray-100 bg-blue-500 rounded-lg hover:bg-blue-600 shadow-lg hover:text-gray-800">Login</a>
+        <div class="items-center mt-2 space-x-1 flex justify-between">
+            <div class="mx-2 bg-gray-500 rounded-full px-2 pt-1">
+                <i class="bx bxs-moon text-gray-200"></i>
+            </div>
+            <div>
+                <a href="<?= SITEURL; ?>admin/" class="py-1 px-3 text-gray-100 bg-blue-500 rounded-lg hover:bg-blue-600 shadow-lg hover:text-gray-800">Login</a>
+            </div>
         </div>
     </div>
 </nav>

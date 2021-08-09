@@ -1,5 +1,5 @@
-<section class="pb-10">
-    <div class="py-10">
+<section class="pb-10 mx-2">
+    <div class="pt-10 mb-14">
         <h1 class="text-center text-green-700 font-semibold text-4xl uppercase">Portfolio</h1>
         <div class="flex justify-center">
             <div class="h-1 w-24 mb-3 bg-green-700"></div>
@@ -86,31 +86,33 @@
                     $description = $row['description'];
                     $image_name = $row['image_name'];
             ?>
-                    <div style="width: 80%; height: 35rem;" class="swiper-slide shadow-lg bg-gray-800 rounded-lg relative">
+                    <div style="width: 75%; height: 25rem;" class="swiper-slide shadow-lg bg-gray-800 rounded-lg relative">
                         <?php
                         if ($image_name == "") {
                         ?>
                             <a target="blank" href="assets/images/dafault/dafault.jpeg">
-                                <div style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('assets/images/dafault/dafault.jpeg');" class="h-60 rounded-t-lg shadow-lg">
+                                <div style="background-image: url('assets/images/dafault/dafault.jpeg');" class="h-full rounded-lg bg-cover bg-center bg-no-repeat">
                                 </div>
                             </a>
                         <?php
                         } else {
                         ?>
                             <a target="blank" href="<?= SITEURL; ?>images/food/<?= $image_name; ?>">
-                                <div style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('<?= SITEURL; ?>images/food/<?= $image_name; ?>');" class="h-60 rounded-t-lg shadow-lg">
+                                <div class="text-black h-full rounded-lg bg-cover bg-center bg-no-repeat" style="background-image: url(<?= SITEURL; ?>images/food/<?= $image_name; ?>);">
+                                    <div class="bg-gradient-to-t rounded-lg from-black h-full flex items-end p-5">
+                                        <div>
+                                            <div class="font-bold text-3xl text-gray-200"><?= $title; ?></div>
+                                            <div class="h-1 w-16 mb-3 bg-yellow-400"></div>
+                                            <h4 class="font-semibold text-gray-200 pb-5"><?= $description; ?></h4>
+                                            <a href="<?= $price; ?>" class="text-yellow-300 bottom-0 absolute pb-2 font-semibold block tracking-wide">Learn more</i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </a>
                         <?php
                         }
                         ?>
 
-                        <div class="p-5 pb-5">
-                            <div class="font-bold text-3xl text-gray-200"><?= $title; ?></div>
-                            <div class="h-1 w-16 mb-3 bg-yellow-400"></div>
-                            <h4 class="font-semibold text-gray-200 pb-5"><?= $description; ?></h4>
-                            <a href="<?= $price; ?>" class="text-yellow-300 bottom-0 absolute pb-2 font-semibold block tracking-wide">Learn more</i></a>
-                        </div>
                     </div>
                 <?php
                 }
@@ -123,8 +125,8 @@
         </div>
     </div>
 
-    <div>
-        <p class="text-center mt-5">
+    <div class="mt-10">
+        <p class="text-center">
             <a class="text-gray-200 bg-blue-500 shadow-lg hover:bg-blue-600 px-3 py-1 rounded-full" href="<?= SITEURL; ?>portfolios.php">See All My Work</a>
         </p>
     </div>

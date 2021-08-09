@@ -10,7 +10,7 @@
     </div>
     <div class="flex justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 md:max-w-6xl">
-            <div class="shadow-lg mx-4 my-4 bg-gray-500 rounded-lg">
+            <div class="shadow-lg mx-4 my-4 bg-gray-500 rounded-lg items-center flex">
                 <?php
                 if (isset($_SESSION['add'])) {
                     echo $_SESSION['add'];

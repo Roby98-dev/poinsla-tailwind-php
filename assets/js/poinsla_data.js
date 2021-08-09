@@ -37,27 +37,27 @@ let sosmedsData = [
       {
         id: '1',
         title: 'Home',
-        link: 'https://poinsla.xyz/',
+        link: 'http://localhost/poinsla-portos/tailwind-poinsla/public/',
       },
       {
         id: '2',
         title: 'Offers',
-        link: 'https://poinsla.xyz/categories.php',
+        link: 'http://localhost/poinsla-portos/tailwind-poinsla/public/categories.php',
       },
       {
         id: '3',
         title: 'Services',
-        link: 'https://poinsla.xyz/portfolios.php',
+        link: 'http://localhost/poinsla-portos/tailwind-poinsla/public/portfolios.php',
       },
       {
         id: '4',
         title: 'Pricing',
-        link: 'https://poinsla.xyz/categories.php',
+        link: 'http://localhost/poinsla-portos/tailwind-poinsla/public/categories.php',
       },
       {
         id: '5',
         title: 'Contact',
-        link: 'https://poinsla.xyz/contact.php',
+        link: 'http://localhost/poinsla-portos/tailwind-poinsla/public/contact.php',
       },
   ];
   
@@ -97,17 +97,17 @@ let sosmedsData = [
   
   let aboutMeData = [
       {
-        image: 'http://localhost/poinsla-portos/tailwind-poinsla/layouts/assets/images/about/icon-about-1.svg',
+        image: 'http://localhost/poinsla-portos/tailwind-poinsla/public/assets/images/about/icon-about-1.svg',
         desc: 'I am graduated from Tourism School at Internation Tourism Collage, after graduated I worked in a Tours & Travel company engaged in operation based in Bali for 2 years and after that I joined PT Kebo Iwa Express as a booking agent, web developer and administration.',
         alt: 'Edication',
       },
       {
-        image: 'http://localhost/poinsla-portos/tailwind-poinsla/layouts/assets/images/about/icon-about-2.svg',
+        image: 'http://localhost/poinsla-portos/tailwind-poinsla/public/assets/images/about/icon-about-2.svg',
         desc: "I am a person who is very enthusiastic about technology especially programming and because I'am graduated from English, it makes it easier for me to learn programming to understand what programming is.",
         alt: 'Motivation',
       },
       {
-        image: 'http://localhost/poinsla-portos/tailwind-poinsla/layouts/assets/images/about/icon-about-3.svg',
+        image: 'http://localhost/poinsla-portos/tailwind-poinsla/public/assets/images/about/icon-about-3.svg',
         desc: 'My goal is to solve problems with technology. I believe anything can be overcome through commitment and hard work. Always up for learning new things.',
         alt: 'My Goals',
       },
